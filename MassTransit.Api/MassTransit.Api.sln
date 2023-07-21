@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Api", "MassTransit.Api\MassTransit.Api.csproj", "{00CEB0EF-1874-48A2-8955-6774D1716BFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Core", "MassTransit.Core\MassTransit.Core.csproj", "{1322C477-190F-4B8A-9B1A-3576452A60F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Infrastructure", "MassTransit.Infrastructure\MassTransit.Infrastructure.csproj", "{D3CF9C63-7DE7-44AC-B7FA-B3BC8726DA8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{00CEB0EF-1874-48A2-8955-6774D1716BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00CEB0EF-1874-48A2-8955-6774D1716BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00CEB0EF-1874-48A2-8955-6774D1716BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1322C477-190F-4B8A-9B1A-3576452A60F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1322C477-190F-4B8A-9B1A-3576452A60F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1322C477-190F-4B8A-9B1A-3576452A60F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1322C477-190F-4B8A-9B1A-3576452A60F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CF9C63-7DE7-44AC-B7FA-B3BC8726DA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CF9C63-7DE7-44AC-B7FA-B3BC8726DA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CF9C63-7DE7-44AC-B7FA-B3BC8726DA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CF9C63-7DE7-44AC-B7FA-B3BC8726DA8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

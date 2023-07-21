@@ -1,11 +1,22 @@
+using MassTransit.Api.Configurations;
+using MassTransit.Core.DataBase;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Host.AddJsonSettings();
+
 // Add services to the container.
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+builder.Services.AddDataBaseConfig(builder.Configuration);
+
+
 
 var app = builder.Build();
 
