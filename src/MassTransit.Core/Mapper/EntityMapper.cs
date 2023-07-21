@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MassTransit.Core.Dto;
 using MassTransit.Core.Entities;
+using MassTransit.Core.Shared.ServiceBus;
 
 namespace MassTransit.Core.Mapper
 {
@@ -8,7 +9,8 @@ namespace MassTransit.Core.Mapper
     {
         public EntityMapper()
         {
-            CreateMap<TopicEntity, TopicDto>();
+            CreateMap<TopicDto, TopicEntity>();
+            CreateMap<IntegrationBaseEvent, EventBusEntity>();
         }
     }
 }

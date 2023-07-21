@@ -4,22 +4,16 @@ namespace MassTransit.Core.Shared.ServiceBus
 {
     public class IntegrationBaseEvent
     {
-        public IntegrationBaseEvent()
-        {
-            Id = Guid.NewGuid();
-            CreationDate = DateTime.Now;
-        }
-
         /// <summary>
         /// Constructor if you got an external method settings the properties.
         /// </summary>
         /// <param name="id">Event ID</param>
         /// <param name="creationDate">Event Creation Date</param>
-        public IntegrationBaseEvent(Guid id, DateTime creationDate,string name)
+        public IntegrationBaseEvent(Guid id, DateTime creationDate,string content)
         {
             Id = id;
             CreationDate = creationDate;
-            Name = name;
+            Content = content;
         }
 
         /// <summary>
@@ -32,6 +26,6 @@ namespace MassTransit.Core.Shared.ServiceBus
         /// </summary>
         public DateTime CreationDate { get; private set; }
 
-        public string Name { get; private set; }
+        public string Content { get; private set; }
     }
 }

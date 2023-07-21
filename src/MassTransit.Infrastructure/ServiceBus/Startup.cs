@@ -1,6 +1,5 @@
 ﻿using MassTransit;
 using MassTransit.Core.Shared.ServiceBus;
-using MassTransit.Infrastructure.Services.Consume;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MassTransit.Infrastructure.Services.Consume
+namespace MassTransit.Infrastructure.ServiceBus
 {
     public class EventConsumer : IConsumer<IntegrationBaseEvent>
     {
@@ -21,7 +21,7 @@ namespace MassTransit.Infrastructure.Services.Consume
         {
             this.mapper = mapper;
             this.repository = repository;
-            this._logger = logger;
+            _logger = logger;
         }
         public async Task Consume(ConsumeContext<IntegrationBaseEvent> context)
         {
