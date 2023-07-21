@@ -1,8 +1,0 @@
-{
-  "MassTransitConfiguration": {
-    "RabbitMqHostName": "massrabbit",
-    "RabbitMqUsername": "guest",
-    "RabbitMqPassword": "guest",
-    "RabbitMqVirtualHost": "/"
-  }
-}
