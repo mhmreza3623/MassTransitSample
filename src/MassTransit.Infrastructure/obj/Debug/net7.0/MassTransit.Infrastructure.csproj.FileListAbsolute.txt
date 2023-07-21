@@ -2,11 +2,14 @@ F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\bin\Debug\net7.0\Ma
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\bin\Debug\net7.0\MassTransit.Infrastructure.runtimeconfig.json
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\bin\Debug\net7.0\MassTransit.Infrastructure.dll
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\bin\Debug\net7.0\MassTransit.Infrastructure.pdb
+F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\bin\Debug\net7.0\MassTransit.Core.dll
+F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\bin\Debug\net7.0\MassTransit.Core.pdb
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\obj\Debug\net7.0\MassTransit.Infrastructure.csproj.AssemblyReference.cache
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\obj\Debug\net7.0\MassTransit.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\obj\Debug\net7.0\MassTransit.Infrastructure.AssemblyInfoInputs.cache
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\obj\Debug\net7.0\MassTransit.Infrastructure.AssemblyInfo.cs
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\obj\Debug\net7.0\MassTransit.Infrastructure.csproj.CoreCompileInputs.cache
+F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\obj\Debug\net7.0\MassTransit.Infrastructure.csproj.CopyComplete
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\obj\Debug\net7.0\MassTransit.Infrastructure.dll
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\obj\Debug\net7.0\refint\MassTransit.Infrastructure.dll
 F:\Projects\MassTransitSample\src\MassTransit.Infrastructure\obj\Debug\net7.0\MassTransit.Infrastructure.pdb

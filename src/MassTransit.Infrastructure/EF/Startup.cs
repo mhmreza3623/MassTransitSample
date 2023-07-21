@@ -5,12 +5,13 @@ using Microsoft.Extensions.DependencyInjection;
 namespace MassTransit.Infrastructure.EF;
 public static class Startup
 {
-    public static void AddEfConfig(this IServiceCollection services, ConfigurationManager configurationManager)
+    public static IServiceCollection AddEfConfig(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddDbContext<MassTransitDbContext>(options =>
+        services.AddDbContext<AppDbContext>(options =>
         {
-            options.UseSqlServer(configurationManager.GetConnectionString("DefaultConnection"));
+            options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
         });
 
+        return services;
     }
 }

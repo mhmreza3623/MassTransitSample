@@ -1,5 +1,8 @@
 using MassTransit.Api.Configurations;
+using MassTransit.Core.Shared.BaseInterface;
 using MassTransit.Infrastructure.EF;
+using MassTransit.Infrastructure.Middlewares;
+using MassTransit.Infrastructure.Repositories;
 using MassTransit.Infrastructure.ServiceBus;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +20,10 @@ builder.Services.AddEfConfig(builder.Configuration);
 
 builder.Services.AddMassTransitConfig(builder.Configuration);
 
+builder.Services.AddRepositoriesConfig();
+
+builder.Services.AddTransient<ITransientService>();
+
 
 var app = builder.Build();
 
@@ -26,6 +33,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+app.UseCustomeMiddlewares();
 
 app.UseHttpsRedirection();
 
