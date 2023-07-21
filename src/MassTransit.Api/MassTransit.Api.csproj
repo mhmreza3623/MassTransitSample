@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MassTransit.Core\MassTransit.Core.csproj" />
+    <ProjectReference Include="..\MassTransit.Infrastructure\MassTransit.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

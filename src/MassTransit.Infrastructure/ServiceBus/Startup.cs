@@ -7,7 +7,7 @@ namespace MassTransit.Infrastructure.ServiceBus;
 
 public static class Startup
 {
-    public static IServiceCollection AddMassTransit(this IServiceCollection services, ConfigurationManager configuration)
+    public static void AddMassTransitConfig(this IServiceCollection services, ConfigurationManager configuration)
     {
 
         var config = new MassTransitConfiguration();
@@ -31,6 +31,5 @@ public static class Startup
 
         services.Configure<MassTransitConfiguration>(configuration.GetSection(MassTransitConfiguration.SectionName));
 
-        return services;
     }
 }
