@@ -23,7 +23,11 @@ namespace MassTransit.Application.NotificationHandlers
             await publishEndpoint.Publish(new CreateTopicEvent()
             {
                 Title = notification.topicEntity.Title,
-                Content = JsonSerializer.Serialize(new { Id = notification.topicEntity.Id, Title = notification.topicEntity.Title })
+                Content = JsonSerializer.Serialize(new
+                {
+                    Id = notification.topicEntity.Id,
+                    Title = notification.topicEntity.Title
+                })
             });
         }
     }

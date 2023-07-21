@@ -1,6 +1,7 @@
 {
   "MassTransitConfiguration": {
-    "RabbitMqHostName": "massrabbit",
+    "RabbitMqHostName": "localhost",
+    "RabbitMqPort": "5672",
     "RabbitMqUsername": "guest",
     "RabbitMqPassword": "guest",
     "RabbitMqVirtualHost": "/"

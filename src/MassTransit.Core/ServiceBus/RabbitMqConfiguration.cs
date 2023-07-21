@@ -11,6 +11,7 @@ namespace MassTransit.Core.ServiceBus
         public const string SectionName = "MassTransitConfiguration";
         public string RabbitMqHostName { get; set; }
         public string RabbitMqUsername { get; set; }
+        public string RabbitMqPort { get; set; }
         public string RabbitMqPassword { get; set; }
         public string RabbitMqVirtualHost { get; set; }
     }

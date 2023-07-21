@@ -9,34 +9,32 @@ public static class Startup
 {
     public static IServiceCollection AddMassTransitConfig(this IServiceCollection services, IConfiguration configuration)
     {
+        var setting = new MassTransitConfiguration();
+        configuration.GetSection(MassTransitConfiguration.SectionName).Bind(setting);
 
-        var config = new MassTransitConfiguration();
-
-        configuration.GetSection(MassTransitConfiguration.SectionName).Bind(config);
-
-        services.AddMassTransit(options =>
+        services.AddMassTransit(config =>
         {
-            options.AddConsumer<EventConsumer>();
+            config.AddConsumer<EventConsumer>();
 
-            options.UsingRabbitMq((context, cfg) =>
+            config.UsingRabbitMq((ctx, cfg) =>
             {
-                cfg.ConfigureEndpoints(context);
-                cfg.Host(config.RabbitMqHostName, config.RabbitMqVirtualHost, h =>
+                cfg.Host(setting.RabbitMqHostName ?? throw new NullReferenceException("The host has not been specififed for RabbitMQ"), x =>
                 {
-                    h.Username(config.RabbitMqUsername);
-                    h.Password(config.RabbitMqPassword);
+                    x.Username(setting.RabbitMqUsername ?? throw new NullReferenceException("The username has not been specififed for RabbitMQ"));
+                    x.Password(setting.RabbitMqPassword ?? throw new NullReferenceException("The password has not been specififed for RabbitMQ"));
                 });
 
-                cfg.ReceiveEndpoint(EventBusConstants.GeneralQueue, cfgEndpoint =>
+                // Set up receiver endpoint for the ProductCreated event
+                // using the contancts from the messagebus library
+                cfg.ReceiveEndpoint(EventBusConstants.GeneralQueue, c =>
                 {
-                    cfgEndpoint.ConfigureConsumer<EventConsumer>(context);
+                    c.ConfigureConsumer<EventConsumer>(ctx);
                 });
+
+                // Add all consumers here...
+
             });
-
-
         });
-
-        services.Configure<MassTransitConfiguration>(configuration.GetSection(MassTransitConfiguration.SectionName));
 
         return services;
     }

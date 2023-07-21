@@ -19,5 +19,6 @@ namespace MassTransit.Core.Events.BaseEvents
         /// </summary>
         public DateTime CreateDate { get; private set; }
 
+        public string Content { get; set; }
     }
 }

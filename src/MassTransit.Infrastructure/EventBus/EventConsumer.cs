@@ -20,9 +20,15 @@ namespace MassTransit.Infrastructure.EventBus
         }
         public async Task Consume(ConsumeContext<IntegrationBaseEvent> context)
         {
-            var @event = mapper.Map<EventBusEntity>(context.Message);
+            //var @event = mapper.Map<EventBusEntity>(context.Message);
 
-            repository.Add(@event);
+            repository.Add(new EventBusEntity()
+            {
+
+                Id = context.Message.Id,
+                Content = context.Message.Content,
+                CreateDate = context.Message.CreateDate,
+            });
 
             await Task.CompletedTask;
         }
