@@ -1,7 +1,6 @@
 using Autofac.Core;
 using AutoMapper;
 using MassTransit.Api.Configurations;
-using MassTransit.Application.Commands;
 using MassTransit.Core.Mapper;
 using MassTransit.Infrastructure.EF;
 using MassTransit.Infrastructure.EventBus;
@@ -10,8 +9,7 @@ using MassTransit.Infrastructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using MediatR;
-
-
+using MassTransit.Application.Handlera;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -9,8 +9,8 @@ namespace MassTransit.Core.Events.Topics
 {
     public class CreateTopicEvent : IntegrationBaseEvent
     {
-        public CreateTopicEvent(Guid id, DateTime creationDate, string content) : base(id, creationDate, content)
-        {
-        }
+        public string Title { get; set; }
+        public string Content { get; set; }
+
     }
 }

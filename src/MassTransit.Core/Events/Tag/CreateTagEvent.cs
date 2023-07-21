@@ -1,11 +1,10 @@
 ﻿using MassTransit.Core.Events.BaseEvents;
+using System.Reflection.Metadata.Ecma335;
 
 namespace MassTransit.Core.Events.Tag
 {
     public class CreateTagEvent : IntegrationBaseEvent
     {
-        public CreateTagEvent(Guid id, DateTime creationDate, string content) : base(id, creationDate, content)
-        {
-        }
+        public string Title { get; set; }
     }
 }

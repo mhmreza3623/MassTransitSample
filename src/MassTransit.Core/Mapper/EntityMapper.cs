@@ -1,7 +1,8 @@
 ﻿using AutoMapper;
 using MassTransit.Core.Dto;
 using MassTransit.Core.Entities;
-using MassTransit.Core.Events.BaseEvents;
+using MassTransit.Core.Events.Tag;
+using MassTransit.Core.Events.Topics;
 
 namespace MassTransit.Core.Mapper
 {
@@ -10,7 +11,8 @@ namespace MassTransit.Core.Mapper
         public EntityMapper()
         {
             CreateMap<TopicDto, TopicEntity>();
-            CreateMap<IntegrationBaseEvent, EventBusEntity>();
+            CreateMap<TopicTagEntity, CreateTopicEvent>();
+            CreateMap<TagEntity, CreateTagEvent>();
         }
     }
 }

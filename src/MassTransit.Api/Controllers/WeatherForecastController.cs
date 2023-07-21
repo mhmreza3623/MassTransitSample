@@ -20,9 +20,9 @@ namespace MassTransit.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddTopic([FromBody] TopicRequest request)
+        public async Task<IActionResult> AddTopic([FromBody] TopicRequest request, CancellationToken ct)
         {
-            await mediator.Send(new CreateTopicCommand(request.TopicName));
+            await mediator.Send(new CreateTopicCommand(request.TopicName), ct);
             return Ok();
         }
     }
