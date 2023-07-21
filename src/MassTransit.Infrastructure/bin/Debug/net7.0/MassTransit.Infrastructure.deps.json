@@ -1761,7 +1761,9 @@
       },
       "MassTransit.Core/1.0.0": {
         "dependencies": {
-          "AutoMapper": "12.0.1"
+          "AutoMapper": "12.0.1",
+          "MassTransit": "8.0.16",
+          "MassTransit.RabbitMQ": "8.0.16"
         },
         "runtime": {
           "MassTransit.Core.dll": {}

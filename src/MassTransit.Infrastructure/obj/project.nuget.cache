@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Rsb/UH6J2OmiVzBNvzjZeS9F6a7CU2XEJI/pXq5QUsZILSiNFn3LaHQAVw6DpoHelepBxhikltHt9MHqBkadFQ==",
+  "dgSpecHash": "j3n7J/GBWxG33YxE14KaX5rCAUKTQbdQ3GcE8OchGgIpxEdmF/yhUO0g0h6aiUFUsxry9h/t/aeGIVp9GYYLXA==",
   "success": true,
   "projectFilePath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Infrastructure\\MassTransit.Infrastructure.csproj",
   "expectedPackageFiles": [

@@ -1,9 +1,9 @@
-﻿using MassTransit;
-using MassTransit.Core.Shared.ServiceBus;
+﻿using MassTransit.Core.ServiceBus;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace MassTransit.Infrastructure.ServiceBus;
+
+namespace MassTransit.Infrastructure.EventBus;
 
 public static class Startup
 {

@@ -1,6 +1,6 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 
-namespace MassTransit.Core.Shared.ServiceBus
+namespace MassTransit.Core.Events.BaseEvents
 {
     public class IntegrationBaseEvent
     {
@@ -9,7 +9,7 @@ namespace MassTransit.Core.Shared.ServiceBus
         /// </summary>
         /// <param name="id">Event ID</param>
         /// <param name="creationDate">Event Creation Date</param>
-        public IntegrationBaseEvent(Guid id, DateTime creationDate,string content)
+        public IntegrationBaseEvent(Guid id, DateTime creationDate, string content)
         {
             Id = id;
             CreationDate = creationDate;

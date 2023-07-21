@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MassTransit.Core.Shared.ServiceBus
+namespace MassTransit.Core.ServiceBus
 {
     public class EventBusConstants
     {

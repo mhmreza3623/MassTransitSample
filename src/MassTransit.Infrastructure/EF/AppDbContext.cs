@@ -29,6 +29,8 @@ namespace MassTransit.Infrastructure.EF
                    .HasForeignKey(w => w.TopicId);
 
             modelBuilder.Entity<TopicTagEntity>().HasKey(w => new { w.TagId, w.TopicId });
+
+            modelBuilder.Entity<EventBusEntity>().HasKey(q => q.Id);
         }
 
         public DbSet<TopicEntity> Topics { get; set; }

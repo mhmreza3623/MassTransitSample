@@ -9,7 +9,9 @@ namespace MassTransit.Core.Entities
 {
     public class TopicEntity : BaseEntity
     {
-        public TopicEntity() { }
+        public TopicEntity() {
+            
+        }
 
         public string Title { get; set; }
         public string Content { get; set; }

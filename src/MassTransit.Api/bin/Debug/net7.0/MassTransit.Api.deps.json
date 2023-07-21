@@ -8,15 +8,31 @@
     ".NETCoreApp,Version=v7.0": {
       "MassTransit.Api/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.1",
+          "MassTransit.Application": "1.0.0",
           "MassTransit.Core": "1.0.0",
           "MassTransit.Infrastructure": "1.0.0",
+          "MediatR": "12.1.1",
+          "MediatR.Extensions.Autofac.DependencyInjection": "11.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.9",
           "Microsoft.EntityFrameworkCore.Design": "7.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.9",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "MassTransit.Api.dll": {}
+        }
+      },
+      "Autofac/7.0.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Autofac.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
         }
       },
       "AutoMapper/12.0.1": {
@@ -110,6 +126,38 @@
           "lib/net6.0/MassTransit.RabbitMqTransport.dll": {
             "assemblyVersion": "8.0.16.0",
             "fileVersion": "8.0.16.0"
+          }
+        }
+      },
+      "MediatR/12.1.1": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Autofac.DependencyInjection/11.0.0": {
+        "dependencies": {
+          "Autofac": "7.0.0",
+          "MediatR": "12.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.0"
           }
         }
       },
@@ -1754,9 +1802,20 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "MassTransit.Application/1.0.0": {
+        "dependencies": {
+          "MassTransit.Core": "1.0.0",
+          "MediatR": "12.1.1"
+        },
+        "runtime": {
+          "MassTransit.Application.dll": {}
+        }
+      },
       "MassTransit.Core/1.0.0": {
         "dependencies": {
-          "AutoMapper": "12.0.1"
+          "AutoMapper": "12.0.1",
+          "MassTransit": "8.0.16",
+          "MassTransit.RabbitMQ": "8.0.16"
         },
         "runtime": {
           "MassTransit.Core.dll": {}
@@ -1787,6 +1846,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-phR/GEk5h2kQWbMl70cZzCW5ysGxmz2ClaX5CuTw9qc3wtdDu3l9GAhWiWmZLltCytEIxIw98NtAraiOxazqLg==",
+      "path": "autofac/7.0.0",
+      "hashPath": "autofac.7.0.0.nupkg.sha512"
     },
     "AutoMapper/12.0.1": {
       "type": "package",
@@ -1836,6 +1902,27 @@
       "sha512": "sha512-M97xmeV1MxCDV4RboVNbePqAZj+Haic+L4KAa8qJzkLIh0bqpCv+3Hb2X+snhGm03jS1Xknh+wzHR+upvIXf8w==",
       "path": "masstransit.rabbitmq/8.0.16",
       "hashPath": "masstransit.rabbitmq.8.0.16.nupkg.sha512"
+    },
+    "MediatR/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1AbwzzeS6gn4NdcO6A9LfKS5TXXgAiUQM3J18dREHa7O7TrdCXJ5dNFeRBpzPZY7UWl5Kby+n9pWrPJe3SDiMA==",
+      "path": "mediatr/12.1.1",
+      "hashPath": "mediatr.12.1.1.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
+    },
+    "MediatR.Extensions.Autofac.DependencyInjection/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+TqonWWwkHG4lJPLBpwKCH6kmuhbd8RFhjKEhVQfSpxOSh88MgmMYSQA1hAZR0/9y2E94NCJvpHIAq6vn2Aa8w==",
+      "path": "mediatr.extensions.autofac.dependencyinjection/11.0.0",
+      "hashPath": "mediatr.extensions.autofac.dependencyinjection.11.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication/1.0.0": {
       "type": "package",
@@ -2991,6 +3078,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "MassTransit.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MassTransit.Core/1.0.0": {
       "type": "project",

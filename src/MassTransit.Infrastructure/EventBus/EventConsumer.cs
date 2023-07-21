@@ -1,15 +1,10 @@
 ﻿using AutoMapper;
 using MassTransit.Core.Entities;
+using MassTransit.Core.Events.BaseEvents;
 using MassTransit.Core.Repositories;
-using MassTransit.Core.Shared.ServiceBus;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace MassTransit.Infrastructure.ServiceBus
+namespace MassTransit.Infrastructure.EventBus
 {
     public class EventConsumer : IConsumer<IntegrationBaseEvent>
     {

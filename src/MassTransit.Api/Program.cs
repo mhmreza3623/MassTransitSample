@@ -1,28 +1,49 @@
+using Autofac.Core;
+using AutoMapper;
 using MassTransit.Api.Configurations;
-using MassTransit.Core.Shared.BaseInterface;
+using MassTransit.Application.Commands;
+using MassTransit.Core.Mapper;
 using MassTransit.Infrastructure.EF;
+using MassTransit.Infrastructure.EventBus;
 using MassTransit.Infrastructure.Middlewares;
 using MassTransit.Infrastructure.Repositories;
-using MassTransit.Infrastructure.ServiceBus;
+using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
+using MediatR;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
+//Add Json cofigs
 builder.Host.AddJsonSettings();
+
+//Add Ef 
+builder.Services.AddEfConfig(builder.Configuration);
+
+// Add MassTransit
+builder.Services.AddMassTransitConfig(builder.Configuration);
+
+//Add Repositories
+builder.Services.AddRepositoriesConfig();
+
+//builder.Services.AddTransient<ITransientService>();
+
+//add mediateR
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(CreateTopicHandler).GetTypeInfo().Assembly));
+
+
+//Add AutoMapper
+var mapperConfig = new MapperConfiguration(mc => mc.AddProfile(new EntityMapper()));
+IMapper mapper = mapperConfig.CreateMapper();
+builder.Services.AddSingleton(mapper);
+
 
 // Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddEfConfig(builder.Configuration);
-
-builder.Services.AddMassTransitConfig(builder.Configuration);
-
-builder.Services.AddRepositoriesConfig();
-
-builder.Services.AddTransient<ITransientService>();
 
 
 var app = builder.Build();

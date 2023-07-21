@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MassTransit.Core.Dto;
 using MassTransit.Core.Entities;
-using MassTransit.Core.Shared.ServiceBus;
+using MassTransit.Core.Events.BaseEvents;
 
 namespace MassTransit.Core.Mapper
 {

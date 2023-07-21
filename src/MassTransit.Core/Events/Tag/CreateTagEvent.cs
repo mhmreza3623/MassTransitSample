@@ -1,4 +1,4 @@
-﻿using MassTransit.Core.Shared.ServiceBus;
+﻿using MassTransit.Core.Events.BaseEvents;
 
 namespace MassTransit.Core.Events.Tag
 {

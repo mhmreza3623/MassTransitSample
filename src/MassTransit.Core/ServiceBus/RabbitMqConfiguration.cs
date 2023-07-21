@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MassTransit.Infrastructure.ServiceBus
+namespace MassTransit.Core.ServiceBus
 {
     public class MassTransitConfiguration
     {

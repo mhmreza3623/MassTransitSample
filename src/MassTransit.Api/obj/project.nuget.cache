@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Z3KIddZSb0Pqo2iYxf6jUBVgWupOXZyaIuzhk4CQGkkIiFfHjHzppSIpf9w2SF09N1wfk/yerWME8rr9sB7JQw==",
+  "dgSpecHash": "+aSBfjDdOq7/CyzN2IYvqc/tmduk9IMg1WwTEpfkEErHUE25RnJyb8cj8gMS1tkfIud70MsNbGyqzDPgv6hASg==",
   "success": true,
   "projectFilePath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Api\\MassTransit.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -11,6 +12,9 @@
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\masstransit\\8.0.16\\masstransit.8.0.16.nupkg.sha512",
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\masstransit.abstractions\\8.0.16\\masstransit.abstractions.8.0.16.nupkg.sha512",
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\masstransit.rabbitmq\\8.0.16\\masstransit.rabbitmq.8.0.16.nupkg.sha512",
+    "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\mediatr.extensions.autofac.dependencyinjection\\11.0.0\\mediatr.extensions.autofac.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\microsoft.aspnetcore.authentication\\1.0.0\\microsoft.aspnetcore.authentication.1.0.0.nupkg.sha512",
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\1.0.0\\microsoft.aspnetcore.authentication.cookies.1.0.0.nupkg.sha512",
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.9\\microsoft.aspnetcore.cryptography.internal.7.0.9.nupkg.sha512",

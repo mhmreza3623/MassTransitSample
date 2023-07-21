@@ -94,3 +94,9 @@ F:\Projects\MassTransitSample\src\MassTransit.Api\bin\Debug\net7.0\Microsoft.Ent
 F:\Projects\MassTransitSample\src\MassTransit.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 F:\Projects\MassTransitSample\src\MassTransit.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
 F:\Projects\MassTransitSample\src\MassTransit.Api\bin\Debug\net7.0\System.CodeDom.dll
+F:\Projects\MassTransitSample\src\MassTransit.Api\bin\Debug\net7.0\MediatR.dll
+F:\Projects\MassTransitSample\src\MassTransit.Api\bin\Debug\net7.0\MediatR.Contracts.dll
+F:\Projects\MassTransitSample\src\MassTransit.Api\bin\Debug\net7.0\Autofac.dll
+F:\Projects\MassTransitSample\src\MassTransit.Api\bin\Debug\net7.0\MediatR.Extensions.Autofac.DependencyInjection.dll
+F:\Projects\MassTransitSample\src\MassTransit.Api\bin\Debug\net7.0\MassTransit.Application.dll
+F:\Projects\MassTransitSample\src\MassTransit.Api\bin\Debug\net7.0\MassTransit.Application.pdb
