@@ -14,9 +14,10 @@ public static class Startup
 
         services.AddMassTransit(config =>
         {
-            config.AddConsumer<EventConsumer>();
+            //config.AddConsumersFromNamespaceContaining<SubmitOrderConsumer>();
 
             config.SetKebabCaseEndpointNameFormatter();
+
             config.UsingRabbitMq((ctx, cfg) =>
             {
                 cfg.Host(setting.RabbitMqHostName ?? throw new NullReferenceException("The host has not been specififed for RabbitMQ"), x =>

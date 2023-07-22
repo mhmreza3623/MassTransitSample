@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using MassTransit.Application.Notifications;
 using MassTransit.Core.Events.Topics;
+using MassTransit.Producer.Application.Notifications;
 using MediatR;
 using System.Text.Json;
 
-namespace MassTransit.Application.NotificationHandlers
+namespace MassTransit.Producer.Application.NotificationHandlers
 {
     internal class CreateTopicNotificationHandler : INotificationHandler<CreateTopicNotification>
     {

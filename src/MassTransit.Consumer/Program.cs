@@ -1,5 +1,6 @@
+using MassTransit.Consumer.Configurations;
 using MassTransit.Infrastructure.EF;
-using MassTransit.Infrastructure.EventHandlers;
+using MassTransit.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,9 @@ builder.Services.AddEfConfig(builder.Configuration);
 
 // Add MassTransit
 builder.Services.AddMassTransitConfig(builder.Configuration);
+
+//Add Repositories
+builder.Services.AddRepositoriesConfig();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

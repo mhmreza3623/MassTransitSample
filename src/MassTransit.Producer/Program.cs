@@ -7,8 +7,8 @@ using MassTransit.Infrastructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using MediatR;
-using MassTransit.Application.Handlera;
-using MassTransit.Infrastructure.EventHandlers;
+using MassTransit.Producer.Application.Handles;
+using MassTransit.Producer.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 

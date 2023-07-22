@@ -1,5 +1,5 @@
-﻿using MassTransit.Application.Commands;
-using MassTransit.Mediator;
+﻿using MassTransit.Mediator;
+using MassTransit.Producer.Application.Commands;
 using MassTransit.Producer.Models;
 using Microsoft.AspNetCore.Mvc;
 

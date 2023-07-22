@@ -119,8 +119,6 @@ G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\Humanizer
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MassTransit.dll
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MassTransit.Abstractions.dll
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
-G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MediatR.dll
-G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MediatR.Contracts.dll
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -177,10 +175,8 @@ G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\runtimes\
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MassTransit.Application.dll
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MassTransit.Core.dll
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MassTransit.Infrastructure.dll
-G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MassTransit.Application.pdb
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MassTransit.Core.pdb
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\bin\Debug\net7.0\MassTransit.Infrastructure.pdb
 G:\Sources\MassTransitSample\src\MassTransit.Consumer\obj\Debug\net7.0\MassTransit.Consumer.csproj.AssemblyReference.cache

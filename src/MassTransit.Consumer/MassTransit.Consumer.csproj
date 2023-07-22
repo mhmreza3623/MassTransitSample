@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MassTransit.Application\MassTransit.Application.csproj" />
     <ProjectReference Include="..\MassTransit.Core\MassTransit.Core.csproj" />
     <ProjectReference Include="..\MassTransit.Infrastructure\MassTransit.Infrastructure.csproj" />
   </ItemGroup>
