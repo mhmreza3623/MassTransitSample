@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projects\\MassTransitSample\\src\\MassTransit.Application\\MassTransit.Application.csproj": {}
+    "G:\\Sources\\MassTransitSample\\src\\MassTransit.Application\\MassTransit.Application.csproj": {}
   },
   "projects": {
-    "F:\\Projects\\MassTransitSample\\src\\MassTransit.Application\\MassTransit.Application.csproj": {
+    "G:\\Sources\\MassTransitSample\\src\\MassTransit.Application\\MassTransit.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Application\\MassTransit.Application.csproj",
+        "projectUniqueName": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Application\\MassTransit.Application.csproj",
         "projectName": "MassTransit.Application",
-        "projectPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Application\\MassTransit.Application.csproj",
-        "packagesPath": "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Application\\obj\\",
+        "projectPath": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Application\\MassTransit.Application.csproj",
+        "packagesPath": "C:\\Users\\SMT\\.nuget\\packages\\",
+        "outputPath": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mramezani.RAYANMEHR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SMT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +31,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\Projects\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj": {
-                "projectPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj"
+              "G:\\Sources\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj": {
+                "projectPath": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj"
               }
             }
           }
@@ -72,20 +72,20 @@
         }
       }
     },
-    "F:\\Projects\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj": {
+    "G:\\Sources\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj",
+        "projectUniqueName": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj",
         "projectName": "MassTransit.Core",
-        "projectPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj",
-        "packagesPath": "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Core\\obj\\",
+        "projectPath": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj",
+        "packagesPath": "C:\\Users\\SMT\\.nuget\\packages\\",
+        "outputPath": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mramezani.RAYANMEHR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SMT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -10,3 +10,15 @@ F:\Projects\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\MassTransit.
 F:\Projects\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\refint\MassTransit.Core.dll
 F:\Projects\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\MassTransit.Core.pdb
 F:\Projects\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\ref\MassTransit.Core.dll
+G:\Sources\MassTransitSample\src\MassTransit.Core\bin\Debug\net7.0\MassTransit.Core.deps.json
+G:\Sources\MassTransitSample\src\MassTransit.Core\bin\Debug\net7.0\MassTransit.Core.dll
+G:\Sources\MassTransitSample\src\MassTransit.Core\bin\Debug\net7.0\MassTransit.Core.pdb
+G:\Sources\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\MassTransit.Core.csproj.AssemblyReference.cache
+G:\Sources\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\MassTransit.Core.GeneratedMSBuildEditorConfig.editorconfig
+G:\Sources\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\MassTransit.Core.AssemblyInfoInputs.cache
+G:\Sources\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\MassTransit.Core.AssemblyInfo.cs
+G:\Sources\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\MassTransit.Core.csproj.CoreCompileInputs.cache
+G:\Sources\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\MassTransit.Core.dll
+G:\Sources\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\refint\MassTransit.Core.dll
+G:\Sources\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\MassTransit.Core.pdb
+G:\Sources\MassTransitSample\src\MassTransit.Core\obj\Debug\net7.0\ref\MassTransit.Core.dll
