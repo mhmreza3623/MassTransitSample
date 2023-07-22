@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+aSBfjDdOq7/CyzN2IYvqc/tmduk9IMg1WwTEpfkEErHUE25RnJyb8cj8gMS1tkfIud70MsNbGyqzDPgv6hASg==",
+  "dgSpecHash": "9McaPtyJcdg/y7k1l7ssD16ehRlQNukLFtNOmSMEjD+A7+rhZvO4euPmykGRwAPZJ6BQAnOXg5LIr9cUdhfcRw==",
   "success": true,
-  "projectFilePath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Api\\MassTransit.Api.csproj",
+  "projectFilePath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Api\\MassTransit.Producer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
     "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

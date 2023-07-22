@@ -10,5 +10,6 @@ namespace MassTransit.Core.Events.Topics
     public class CreateTopicEvent : IntegrationBaseEvent
     {
         public string Title { get; set; }
+        public List<string> Tags{ get; set; }
     }
 }

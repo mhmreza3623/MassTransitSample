@@ -18,16 +18,11 @@ namespace MassTransit.Application.NotificationHandlers
         }
         public async Task Handle(CreateTopicNotification notification, CancellationToken cancellationToken)
         {
-            //CreateTopicEvent topicEvent = mapper.Map<CreateTopicEvent>(notification.topicEntity);
-
             await publishEndpoint.Publish(new CreateTopicEvent()
             {
-                Title = notification.topicEntity.Title,
-                Content = JsonSerializer.Serialize(new
-                {
-                    Id = notification.topicEntity.Id,
-                    Title = notification.topicEntity.Title
-                })
+                Title = notification.topic.Title,
+                Content = JsonSerializer.Serialize(notification.topic),
+                Tags = notification.topic.Tags,
             });
         }
     }

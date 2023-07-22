@@ -1,9 +1,10 @@
-﻿using MassTransit.Core.Entities;
+﻿using MassTransit.Core.Dto;
+using MassTransit.Core.Entities;
 using MediatR;
 
 namespace MassTransit.Application.Notifications
 {
-    public record CreateTopicNotification(TopicEntity topicEntity) : INotification
+    public record CreateTopicNotification(TopicDto topic) : INotification
     {
     }
 }

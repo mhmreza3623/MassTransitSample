@@ -9634,9 +9634,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Api\\MassTransit.Api.csproj",
-      "projectName": "MassTransit.Api",
-      "projectPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Api\\MassTransit.Api.csproj",
+      "projectUniqueName": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Api\\MassTransit.Producer.csproj",
+      "projectName": "MassTransit.Producer",
+      "projectPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Api\\MassTransit.Producer.csproj",
       "packagesPath": "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\",
       "outputPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Api\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "GZ9BzokBGY8SR0+CO1AL5leLKc39Zmq92EVTMXcTyLc=",
-  "Source": "MassTransit.Api",
-  "BasePath": "_content/MassTransit.Api",
+  "Hash": "bt4Ebsvmma42g23U5V7bsua7TKXKh9Lx9/3MGwj+C7A=",
+  "Source": "MassTransit.Producer",
+  "BasePath": "_content/MassTransit.Producer",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

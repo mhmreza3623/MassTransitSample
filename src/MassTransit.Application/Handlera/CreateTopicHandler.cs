@@ -1,5 +1,6 @@
 ﻿using MassTransit.Application.Commands;
 using MassTransit.Application.Notifications;
+using MassTransit.Core.Dto;
 using MassTransit.Core.Entities;
 using MassTransit.Core.Repositories;
 using MediatR;
@@ -11,7 +12,7 @@ public record CreateTopicHandler : IRequestHandler<CreateTopicCommand>
     private readonly IGeneralRepository<TopicEntity> repository;
     private readonly IMediator mediator;
 
-    public CreateTopicHandler(IGeneralRepository<TopicEntity> repository,IMediator mediator)
+    public CreateTopicHandler(IMediator mediator)
     {
         this.repository = repository;
         this.mediator = mediator;
@@ -20,19 +21,11 @@ public record CreateTopicHandler : IRequestHandler<CreateTopicCommand>
 
     public async Task Handle(CreateTopicCommand request, CancellationToken cancellationToken)
     {
-        var topic = repository.Add(new TopicEntity
+        await mediator.Publish(new CreateTopicNotification(new TopicDto
         {
-            Content = "Hello",
-            Title = "Topic1",
-            Tags = new List<TopicTagEntity> {
-                new TopicTagEntity
-                {
-                    Tag=new TagEntity{Title="Food"},
-                    CreateDate=DateTime.Now,
-                }
-            }
-        });
-
-        await mediator.Publish(new CreateTopicNotification(topic));
+            Content = request.content,
+            Title = request.title,
+            Tags = new List<string> { "food" }
+        }));
     }
 }

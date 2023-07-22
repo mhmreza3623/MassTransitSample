@@ -1,7 +1,9 @@
-﻿namespace MassTransit.Api.Models
+﻿namespace MassTransit.Producer.Models
 {
     public class TopicRequest
     {
-        public string TopicName { get; set; }
+        public string Title { get; set; }
+        public string Content { get; set; }
+        public string Tags{ get; set; }
     }
 }

@@ -8,5 +8,5 @@ using System.Threading.Tasks;
 
 namespace MassTransit.Application.Commands
 {
-    public record CreateTopicCommand(string name) : IRequest;
+    public record CreateTopicCommand(string title,string content,List<string> tags) : IRequest;
 }
