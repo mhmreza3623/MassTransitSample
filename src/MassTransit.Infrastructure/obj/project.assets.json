@@ -9453,23 +9453,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SMT\\.nuget\\packages\\": {},
+    "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Infrastructure\\MassTransit.Infrastructure.csproj",
+      "projectUniqueName": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Infrastructure\\MassTransit.Infrastructure.csproj",
       "projectName": "MassTransit.Infrastructure",
-      "projectPath": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Infrastructure\\MassTransit.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\SMT\\.nuget\\packages\\",
-      "outputPath": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Infrastructure\\obj\\",
+      "projectPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Infrastructure\\MassTransit.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\mramezani.RAYANMEHR\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\SMT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mramezani.RAYANMEHR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9483,8 +9483,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "G:\\Sources\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj": {
-              "projectPath": "G:\\Sources\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj"
+            "F:\\Projects\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj": {
+              "projectPath": "F:\\Projects\\MassTransitSample\\src\\MassTransit.Core\\MassTransit.Core.csproj"
             }
           }
         }

@@ -1,6 +1,6 @@
-﻿using MassTransit.Mediator;
-using MassTransit.Producer.Application.Commands;
+﻿using MassTransit.Producer.Application.Commands;
 using MassTransit.Producer.Models;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MassTransit.Producer.Controllers

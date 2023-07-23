@@ -26,7 +26,7 @@ public record CreateTopicHandler : IRequestHandler<CreateTopicCommand>
         {
             Content = request.content,
             Title = request.title,
-            Tags = new List<string> { "food" }
+            Tags = request.tags
         }));
     }
 }
